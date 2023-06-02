@@ -1,0 +1,17 @@
+.App {
+  overflow: scroll;
+  height: 100vh;
+  
+}
+
+.btn {
+  all: unset;
+  display: inline-block;
+  padding: 14px 22px;
+  background-color: #ffffff;
+  color: #292929;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}

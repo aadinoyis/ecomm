@@ -1,0 +1,121 @@
+.alt_screen {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(210, 210, 210, 0.658);
+  z-index: 9999;
+}
+
+.close_view {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: rgba(92, 92, 92, 0.5) 0px 0px 5px 0px, rgba(96, 96, 96, 0.5) 0px 0px 1px 0px;
+  text-shadow: rgba(92, 92, 92, 0.5) 0px 0px 5px, rgba(96, 96, 96, 0.5) 0px 0px 1px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.view_box {
+  margin-left: auto;
+  width: 100%;
+  /* max-width: 765px; */
+  height: 100%;
+  overflow: scroll;
+  background: #fff;
+  padding-bottom: 6rem;
+}
+
+.view_box .image_screen {
+  max-width: 100%;
+  height: 100%;
+  max-height: 60vh;
+  overflow: scroll;
+}
+.view_box .image_screen img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.view_box .image_tab {
+  margin-top: 1rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.view_box .image_tab img{
+  max-width: 150px;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.actions {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.actions li {
+  font-size: .875rem;
+  font-weight: 700;
+  color: var(--lemon-green);
+}
+
+.details {
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 2rem auto;
+}
+
+.details h1 {
+  font-weight: 600;
+  font-size: 1.9rem;
+  margin-bottom: .5rem;
+}
+.details h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.buy_act {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  z-index: 1000;
+}
+
+.buy_act .btn {
+  all: unset;
+  display: inline-block;
+  padding: 14px 22px;
+  background-color: var(--lemon-green);
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.buy_act span {
+  font-size: .75rem;
+  font-weight: 400;
+  text-align: center;
+}

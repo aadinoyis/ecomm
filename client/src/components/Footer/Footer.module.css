@@ -1,0 +1,20 @@
+footer {
+  background: #f5f5f5;
+  font-size: .75rem;
+}
+
+footer .about {
+  padding: 4rem 1rem;
+}
+
+footer .copy {
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 1px solid #949494;
+}
+
+footer a {
+  all: unset;
+  color: #000;
+  
+}

@@ -1,0 +1,47 @@
+nav {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #bfbfbf;
+  position: fixed;
+  z-index: 99999;
+}
+
+.nav_group {
+  height: 65px;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+}
+
+.nav_icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.search {
+  padding: .5rem 1rem;
+  width: 200px;
+  background: rgb(247, 253, 225);
+  border-radius: 45px;
+}
+
+.gem {
+  position: relative;
+}
+
+.gem::after {
+  position: absolute;
+  content: '';
+  top: -.5rem;
+  right: -.5rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--lemon-green);
+}
